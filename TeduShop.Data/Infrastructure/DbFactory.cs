@@ -17,9 +17,10 @@ namespace TeduShop.Data.Infrastructure
 
         protected override void DisposeCore()
         {
-            if(dbContext!=null)
+            if (dbContext != null)
             {
                 dbContext.Dispose();
             }
+        }
     }
 }

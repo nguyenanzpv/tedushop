@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TeduShop.Model.Models
 {
-    [Table("ProductCategories")]
+    [Table("PostCategories")]
     public class PostCategory
     {
         [Key]

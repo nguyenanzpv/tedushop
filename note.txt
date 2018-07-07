@@ -1,0 +1,4 @@
+enable-migrations : chay enable migration lan dau
+add-migration InitialDB : chay lai enable migration lan thu 2
+update-database: de generate table vao sql
+https://msdn.microsoft.com/en-us/library/jj200620(v=vs.113).aspx
