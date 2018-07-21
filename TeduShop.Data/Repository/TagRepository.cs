@@ -8,7 +8,7 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Repository
 {
-    public interface ITagRepository
+    public interface ITagRepository:IRepository<Tag>
     {
     }
 
